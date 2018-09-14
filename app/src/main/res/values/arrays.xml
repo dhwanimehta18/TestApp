@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>Color Mixer</item>
+        <item>Shape Example</item>
+        <item>File Explorer</item>
+        <item>Simple Adapter</item>
+        <item>Custom Adapter</item>
+        <item>Call Example</item>
+        <item>Database Example</item>
+        <item>Video Example</item>
+        <item>Royal</item>
+        <item>RecycleDemo</item>
+    </string-array>
+</resources>
