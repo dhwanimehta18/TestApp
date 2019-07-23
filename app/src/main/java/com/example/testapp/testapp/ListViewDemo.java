@@ -26,14 +26,14 @@ public class ListViewDemo extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Intent next = null ;
+        Intent next = null;
         switch (position) {
             case 0:
                 next = new Intent(ListViewDemo.this, ColorMixer.class);
                 startActivity(next);
                 break;
             case 1:
-                next = new Intent(ListViewDemo.this,ShapeEx.class);
+                next = new Intent(ListViewDemo.this, ShapeEx.class);
                 startActivity(next);
                 break;
             case 2:
@@ -65,7 +65,11 @@ public class ListViewDemo extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(next);
                 break;
             case 9:
-                next = new Intent(ListViewDemo.this,RecycleDemo.class);
+                next = new Intent(ListViewDemo.this, RecycleDemo.class);
+                startActivity(next);
+                break;
+            case 10:
+                next = new Intent(ListViewDemo.this, SnackBarDemo.class);
                 startActivity(next);
         }
     }

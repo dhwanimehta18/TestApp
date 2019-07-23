@@ -16,6 +16,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SnackBarDemo"></activity>
         <activity android:name=".ListViewDemo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +32,6 @@
         <activity android:name=".JSONEx" />
         <activity android:name=".PhoneBook" />
         <activity android:name=".CallEample.CallExample" />
-        <activity android:name=".ImageDetails.ImageDetails" />
         <activity android:name=".Music.Music" />
         <activity android:name=".DatabaseExample.DBExample" />
         <activity android:name=".VideoExample.VideoExample" />
@@ -39,7 +39,11 @@
         <activity android:name=".Music.MainActivity" />
         <activity android:name=".Royal.RoyalActivity1" />
         <activity android:name=".Royal.RoyalActivity2" />
-        <activity android:name=".RecycleDemo"></activity>
+        <activity android:name=".RecycleDemo" />
+        <activity
+            android:name=".GmailDemo.activity.GmailLook"
+            android:label="@string/title_activity_gmail_look"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

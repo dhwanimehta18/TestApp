@@ -17,7 +17,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.testapp.testapp.ImageDetails.ImageDetails;
 import com.example.testapp.testapp.R;
 
 import java.util.ArrayList;
